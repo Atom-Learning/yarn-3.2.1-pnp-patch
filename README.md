@@ -21,7 +21,7 @@ This repo patches `sources/hook.js` in @yarnpkg/pnp, which provides the template
 Because yarn runs from a compiled release file in your local repository at `./.yarn/releases/yarn-*-.cjs`, the patch has to be compiled into the release. Do this in your local project by running
 
 ```bash
-yarn set version from sources --repository https://github.com/troncali/yarn-3.2.1-pnp-patch
+yarn set version from sources --repository https://github.com/Atom-Learning/yarn-3.2.1-pnp-patch
 ```
 
 [Read more about `yarn set version from sources`](https://yarnpkg.com/cli/set/version/from/sources).
